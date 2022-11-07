@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/movie-catalog/static/css/main.c6ac1c0e.css",
+    "main.js": "/movie-catalog/static/js/main.84a04588.js",
+    "static/js/787.8a318d4b.chunk.js": "/movie-catalog/static/js/787.8a318d4b.chunk.js",
+    "static/media/plus-jakarta-sans-all-400-normal.woff": "/movie-catalog/static/media/plus-jakarta-sans-all-400-normal.af89d4de747545d5f7f5.woff",
+    "static/media/plus-jakarta-sans-latin-400-normal.woff2": "/movie-catalog/static/media/plus-jakarta-sans-latin-400-normal.fa0f07886ae0475223b7.woff2",
+    "static/media/plus-jakarta-sans-latin-ext-400-normal.woff2": "/movie-catalog/static/media/plus-jakarta-sans-latin-ext-400-normal.45fae27d0f614f3a743a.woff2",
+    "static/media/plus-jakarta-sans-vietnamese-400-normal.woff2": "/movie-catalog/static/media/plus-jakarta-sans-vietnamese-400-normal.862774889f3ee1038cbe.woff2",
+    "static/media/plus-jakarta-sans-cyrillic-ext-400-normal.woff2": "/movie-catalog/static/media/plus-jakarta-sans-cyrillic-ext-400-normal.a6dba74d1bf523fa5a5e.woff2",
+    "index.html": "/movie-catalog/index.html",
+    "main.c6ac1c0e.css.map": "/movie-catalog/static/css/main.c6ac1c0e.css.map",
+    "main.84a04588.js.map": "/movie-catalog/static/js/main.84a04588.js.map",
+    "787.8a318d4b.chunk.js.map": "/movie-catalog/static/js/787.8a318d4b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6ac1c0e.css",
+    "static/js/main.84a04588.js"
+  ]
+}
