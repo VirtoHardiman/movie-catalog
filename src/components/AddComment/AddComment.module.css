@@ -1,0 +1,41 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.inputGroup {
+  position: relative;
+}
+
+.inputGroup p {
+  position: absolute;
+  top: 210px;
+  font-size: 18px;
+}
+
+.input {
+  width: 1200px;
+  height: 200px;
+  font-size: 20px;
+  padding: 16px;
+  border: 1px solid #686763;
+  background-color: #f5f4ef;
+  resize: none;
+}
+
+.button {
+  margin-top: 46px;
+  width: 240px;
+  height: 60px;
+  border: none;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.button:disabled {
+  background-color: #bdbbb2;
+  cursor: auto;
+}

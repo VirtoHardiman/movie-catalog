@@ -1,0 +1,27 @@
+.summaryWrapper {
+  width: 1366px;
+  height: 500px;
+  background-color: #000000;
+  position: relative;
+  margin: 0 auto;
+}
+
+.summaryWrapper > * {
+  position: absolute;
+}
+
+.summaryWrapper p {
+  top: 40px;
+  left: 40px;
+  color: #ffffff;
+  font-size: 32px;
+  line-height: 48px;
+  width: 800px;
+}
+
+.summaryWrapper img {
+  right: 40px;
+  bottom: 0;
+  width: 440px;
+  height: 480px;
+}

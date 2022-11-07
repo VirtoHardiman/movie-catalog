@@ -1,0 +1,20 @@
+.buttonWrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 220px;
+  /* border: 1px solid black; */
+}
+
+.buttonWrapper button {
+  width: 54px;
+  height: 54px;
+  font-size: 24px;
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+  background-color: #f5f4ef;
+}
+
+.buttonWrapper .currentPage {
+  background-color: #f1dbce;
+}

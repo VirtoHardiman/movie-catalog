@@ -1,0 +1,26 @@
+.pageBackground {
+  background-color: #f5f4ef;
+}
+
+.pageWrapper {
+  padding: 100px 0 40px;
+  width: 1266px;
+  margin: 0 auto;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.pageWrapper h1 {
+  top: 160px;
+  left: 100px;
+  position: absolute;
+}
+
+.emptyState {
+  margin: 40px 0 20px;
+  font-size: 24px;
+  font-weight: 600;
+}

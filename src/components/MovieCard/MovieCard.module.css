@@ -1,0 +1,50 @@
+.movieCard {
+  width: 1000px;
+  height: 364px;
+  position: relative;
+  margin: 0 auto 100px;
+  cursor: pointer;
+}
+
+.cardDescription {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  color: #292926;
+  z-index: 2;
+}
+
+.cardTitle {
+  font-size: 60px;
+  margin-bottom: 24px;
+  width: 900px;
+  clip-path: inset(0 584px 0 0);
+}
+
+.cardTitle:nth-child(2) {
+  position: absolute;
+  color: #ffffff;
+  clip-path: inset(0 0 0 316px);
+}
+
+.cardRating {
+  font-size: 32px;
+}
+
+.poster {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 683px;
+  height: 364px;
+  filter: brightness(0.6);
+  object-fit: cover;
+  transition: filter 0.4s;
+}
+
+.movieCard:hover .poster {
+  filter: brightness(0.9);
+}

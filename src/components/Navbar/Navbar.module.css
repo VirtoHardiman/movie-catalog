@@ -1,0 +1,30 @@
+nav {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  padding: 10px 24px;
+  top: 0;
+  left: 0;
+}
+
+.light {
+  background-color: #f5f4ef;
+}
+
+.dark {
+  background-color: black;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.light a {
+  color: #686763;
+}
+
+.dark a {
+  color: white;
+}

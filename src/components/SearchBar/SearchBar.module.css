@@ -1,0 +1,22 @@
+.searchBar {
+  align-self: start;
+  margin-left: 100px;
+  margin-bottom: 40px;
+}
+
+.searchBar input {
+  font-size: 24px;
+  padding-bottom: 8px;
+  width: 300px;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid #686763;
+  background-color: #f5f4ef;
+  transition: width 0.4s;
+  font-weight: 600;
+}
+
+.searchBar input:focus {
+  outline: none;
+  width: 1030px;
+}

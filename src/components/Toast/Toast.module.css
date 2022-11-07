@@ -1,0 +1,21 @@
+.success,
+.error {
+  z-index: 12;
+  right: 32px;
+  bottom: 32px;
+  position: fixed;
+  padding: 0 32px 0 24px;
+  height: 56px;
+  line-height: 56px;
+  text-align: start;
+}
+
+.success {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.error {
+  background-color: #ffffff;
+  color: #f8ac80;
+}
