@@ -11,7 +11,8 @@ function App() {
     <BrowserRouter>
       <ScrollToTop />
       <Routes>
-        <Route index path="/" element={<MovieList />} />
+        <Route path="/" element={<MovieList />} />
+        <Route path="/movie-catalog" element={<MovieList />} />
         <Route path="/:movieId" element={<MovieDetail />} />
       </Routes>
     </BrowserRouter>
