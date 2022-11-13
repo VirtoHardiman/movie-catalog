@@ -10,4 +10,5 @@
 
 - React
 - JSON-Server
+- React Hook Form
 - Jest
