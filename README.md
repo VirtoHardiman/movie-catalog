@@ -1,6 +1,6 @@
 ![Project Cover](https://i.imgur.com/U58zlmy.png)
 
-**Demo link**: [https://virtohardiman.github.io/note-app/](https://virtohardiman.github.io/note-app/)
+**Demo link**: [https://virtohardiman.github.io/movie-catalog](https://virtohardiman.github.io/movie-catalog)
 
 **Project name**: Movie Catalog Website
 
