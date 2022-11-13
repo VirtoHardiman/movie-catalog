@@ -15,7 +15,14 @@ const MovieCard = ({ movie }) => {
         <p className={styles.cardTitle}>{title}</p>
         <p className={styles.cardRating}>{rating} / 10</p>
       </div>
-      <img src={poster_path} alt="movie poster" className={styles.poster} loading="lazy" />
+      <img
+        src={poster_path}
+        alt="movie poster"
+        className={styles.poster}
+        width="683px"
+        height="364px"
+        loading="lazy"
+      />
     </div>
   );
 };
