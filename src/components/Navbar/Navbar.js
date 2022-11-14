@@ -6,7 +6,7 @@ import styles from "./Navbar.module.css";
 const Navbar = ({ theme }) => {
   return (
     <nav className={theme == "light" ? styles.light : styles.dark}>
-      <Link to="/">MoView</Link>
+      <Link to="/movie-catalog">MoView</Link>
     </nav>
   );
 };
