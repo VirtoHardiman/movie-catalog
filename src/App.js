@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import "@fontsource/plus-jakarta-sans";
 import "./App.css";
 
@@ -8,13 +8,13 @@ import ScrollToTop from "./ScrollToTop";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <ScrollToTop />
       <Routes>
-        <Route path="/movie-catalog" element={<MovieList />} />
-        <Route path="/movie-catalog/:movieId" element={<MovieDetail />} />
+        <Route path="/" element={<MovieList />} />
+        <Route path="/movie/:movieId" element={<MovieDetail />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

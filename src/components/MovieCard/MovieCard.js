@@ -11,7 +11,7 @@ const MovieCard = ({ movie }) => {
   return (
     <div
       className={styles.movieCard}
-      onClick={() => navigate(`/movie-catalog/movie-${id}`)}
+      onClick={() => navigate(`/movie/movie-${id}`)}
     >
       <div className={styles.cardDescription}>
         <p className={styles.cardTitle}>{title}</p>
